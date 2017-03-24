@@ -32,6 +32,25 @@ button {
   height: 50px;
 }
 
+.navbuts {
+  height: 50px;
+  width: 40%;
+  float: left;
+}
+
+.navtab {
+  padding: 10px;
+  background-color: #ff9;
+  float: left;
+}
+
+.navsel {
+  padding: 10px;
+  background-color: #6cf;
+  width: auto;
+  float: left;
+}
+
 .content_main {
   width: 70%;
 }
