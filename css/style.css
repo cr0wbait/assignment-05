@@ -9,6 +9,10 @@ body {
   text-align: left;
 }
 
+footer {
+  width: 100%;
+}
+
 button {
   text-decoration: none;
 }
@@ -16,6 +20,10 @@ button {
 #app-container {
   font-size: medium;
   position: relative;
+}
+
+.content_main {
+  width: 75%;
 }
 
 .mailing {
@@ -28,11 +36,28 @@ button {
 }
 
 .upcoming {
-
+  position: absolute;
+  right: 10px;
+  top: 10px;
 }
 
 .upcoming h4 {
   color: gray;
   font-size: small;
   font-weight: 300;
+}
+
+.contact {
+  display: inline-block;
+  height: 50px;
+  border-top: 1px solid black;
+}
+
+.con_info {
+  max-height: 100%;
+  width: 25%;
+}
+
+.contact i {
+  color: red;
 }
