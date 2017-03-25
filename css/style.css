@@ -23,13 +23,13 @@ button {
   position: relative;
 }
 
-.header {
+.header_content {
   font-size: medium;
-  display: inline-block;
-}
-
-.header img {
-  height: 50px;
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  height: 100px;
+  vertical-align: bottom;
 }
 
 .navbuts {
@@ -72,7 +72,7 @@ button {
 .upcoming {
   position: absolute;
   right: 10px;
-  top: 10px;
+  top: 125px;
   width: 20%;
 }
 
@@ -97,5 +97,5 @@ button {
 }
 
 .contact i {
-  color: red;
+  color: #DB4B38;
 }
